@@ -1,0 +1,515 @@
+
+
+#pagina{
+
+	
+	margin: 0px auto;
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	background-color: #E6E6FA;
+	width: 900px;
+	
+	border-radius: 20px;
+	padding: 20px;
+
+
+
+}
+
+#widgets{
+
+	margin-top: 0px;
+	
+	width: 210px;
+	height: 300px;
+	float: right;
+
+
+
+
+}
+
+h1{
+
+	font-family: Segoe WP, Segoe UI, verdana;
+	color: #4d4d4d;
+	text-align: center;
+
+}
+
+.widget{
+
+	border-radius: 20px;
+	margin-top: 0px;
+	background-color: #4d4d4d;
+	width: 240px;
+	font-family: Segoe WP, Segoe UI;
+	padding: 10px;
+	float: inherit;
+	color: #4d4d4d;
+
+	
+
+
+}
+
+.titulo-widget{
+
+	border-radius: 10px;
+	background-color: #F8F8FF;
+	width: 230px;
+	height: 20px;
+	font-family: Segoe WP, Segoe UI;
+	padding: 5px;
+	float: inherit;
+	margin-bottom: 10px;
+
+
+}
+
+.texto-widget{
+
+	
+	
+	border-radius: 10px;
+	background-color: #F8F8FF;
+	width: 230px;
+	
+	font-family: Segoe WP, Segoe UI;
+	padding: 5px;
+
+}
+
+
+
+
+body{
+
+	margin: 0;
+	/* url("/Site/recursos/imagens/back4.jpg") top center no-repeat, */
+	height: auto;
+	background: url("/Site/recursos/imagens/bg.jpg") top center repeat;
+
+	
+	background-color: #3d3d3d;
+	
+	font-family: Segoe WP, Segoe UI;
+
+
+}
+
+.a01{
+
+	background-image: url("/Site/recursos/imagens/ban.jpg");
+
+}
+
+.a02{
+
+	background-image: url("/Site/recursos/imagens/lente.jpg");
+
+}
+
+
+#logo > img{
+    
+
+    width: 900px;
+    border-radius: 20px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    /* transitions */
+    -webkit-transition: all .2s ease;
+       -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+         -o-transition: all .2s ease;
+            transition: all .2s ease;
+    
+}
+
+#logo > img:nth-child(1){ /* first <img> child of <div> */
+    filter: alpha(opacity=100); /* IE stuff */
+    opacity: 1;
+    z-index: 2;
+}
+#logo > img:nth-child(2){ /* second <img> child of <div> */
+    filter: alpha(opacity=0); /* IE stuff */
+    opacity: 0;
+    z-index: 1;
+}
+/* hover */
+#logo:hover > img:nth-child(1){ 
+    filter: alpha(opacity=0);
+    opacity: 0;
+    z-index: 1;
+}
+#logo:hover > img:nth-child(2){ 
+    filter: alpha(opacity=100);
+    opacity: 1;
+    z-index: 2;
+}
+
+#menu {
+
+	width : 890px;
+	height: 55px;
+	/*background-color: #576485;*/
+	background-color: #4d4d4d;
+	margin-top: 210px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+
+
+
+
+}
+
+.item-menu{
+
+	font-family: Segoe WP, Segoe UI;
+	color: #777777 ;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #F8F8FF;
+	margin: 5px; 
+	width: 110px;
+	height: 30px;
+	float: left;
+	background-color: #F8F8FF;
+	text-align: center;
+	line-height: 30px;
+	padding: 5px;
+	text-decoration: none;
+	transition: color 0.5s ease; 
+
+
+}
+
+.item-menu:hover {
+
+	color: #fff ;
+
+}
+
+.selecionado{
+
+	border-color: #777777;
+	background-color: #cc3333;
+	color: white;
+
+
+
+}
+
+
+
+
+
+#explodir{
+
+	width: 100px;
+	height: 100px;
+	background-size: 240px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("imagens/persona.png");
+	background-color: #546475;
+	border: dotted;
+	border-size: 0.5px;
+	border-color: black;
+
+}
+
+.paginas-posts{
+
+	width: 600px;
+	height: 50px;
+	
+
+}
+
+.borda-botao-pagina{
+
+
+	width: 22px;
+	height: 22px ;
+	text-align: center;
+	border-radius: 15px;
+	padding: 4px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	background-color: #4d4d4d;
+	float:left;
+
+
+}
+
+
+.botao-pagina{
+
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 1px;
+	background-color: #F8F8FF;
+
+
+}
+
+.dois{
+
+	width: 200px;
+	height: 100px;
+
+}
+
+
+
+
+
+#dados-user{
+
+	width: 220px;
+	height: 80px;
+	margin-bottom: 10px;
+
+}
+
+
+#foto-user{
+
+	float: left;
+	width: 58px;
+	height: 20px;
+	padding-top: 38px;
+	background-size: 60px 60px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-repeat: no-repeat;
+	background-color: cyan;
+	overflow: hidden;
+
+
+}
+
+#img-user{
+
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+
+
+}
+
+#nome-login-user{
+
+
+	width: 135px;
+	height: 80px;
+	margin-left: 5px;
+	float: left;
+
+
+}
+
+#nome-user{
+
+	width: 135px;
+	height: 45px;
+	padding: 0px;
+	margin-bottom: 10px;
+	overflow: hidden;
+
+	transition: color 0.5s ease; 
+
+
+
+}
+
+#login-user{
+
+	width: 135px;
+	height: 30px;
+	padding: 0px;
+	overflow: hidden;
+
+	transition: color 0.5s ease; 
+	
+	
+
+
+
+}
+
+.nome-selecionado{
+
+	color: #FF4040;
+	
+
+}
+
+
+.user{
+
+	float: left;
+	width: 70;
+	height: 80;
+
+
+
+	}
+
+
+.glowing-border1 {
+
+    
+    background-color: green;
+    transition: outline-color 0.5s ease; 
+}
+
+.glowing-border2 { 
+    
+    background-color: red;
+   
+    transition: outline-color 0.5s ease; 
+}
+
+.ui-widget { 
+	
+	font-family: Segoe WP,Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; 
+	font-size: 0.8em; 
+
+}
+
+.inputs1{
+
+	margin-bottom: 3px;
+	
+
+
+}
+
+.inputs2{
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+	margin-bottom: 3px;
+	margin-right: 3px;
+	font-family: Segoe WP, Segoe UI, verdana;
+	background-color: gray;
+	color: white;
+	border-radius: 2px;
+	border-width: 1px;
+	border-color: black;
+
+
+}
+
+
+.input-sign-in{
+
+	background-color: transparent;
+	border-width: 0px;
+	color: inherit;
+	outline: none;
+	font-style: inherit;
+	font-size: inherit;
+
+
+}
+
+.titulo{
+
+	width: 490px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+
+#kitten:hover {
+    filter:url(#multiply);
+    
+}
+
+.link{
+
+	text-decoration: none;
+	color: inherit;
+	font-family: inherit;
+
+
+}
+
+
+
+.jcrop-holder #preview-pane {
+  display: block;
+  position: absolute;
+  z-index: 2000;
+  top: 0px;
+  left: 450px;
+  padding: 6px;
+  border: 1px rgba(0,0,0,.4) solid;
+  background-color: white;
+  text-align: center;
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+  -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Registrar */
+
+/* The Javascript code will set the aspect ratio of the crop
+   area based on the size of the thumbnail preview,
+   specified here */
+#preview-pane .preview-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+img#target{
+    
+
+    
+  
+    
+}
+
+#progresslabel{
+    
+    position: absolute;
+    padding-top: 4px;
+   padding-left: 255px;
+        
+}
+
+span#bemvindo{
+    
+    font-family: verdana;
+    text-align: center;
+    color: #000;
+    font-size: 28px;
+    
+    
+}
+
+/* ######################### */

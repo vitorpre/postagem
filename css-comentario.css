@@ -1,0 +1,73 @@
+
+.comentario{
+    
+    width: 585px;
+    height: auto;
+    display: table; 
+  
+    margin-bottom: 10px;
+    
+    
+}
+
+.foto-comentario{
+    
+    width: 80px;
+    height:80px;
+     float:left;
+     border-radius: 5px;
+    
+}
+
+
+.conteudo-comentario{
+    
+    width:490px;
+    height:auto;
+   
+    
+    
+    
+    
+}
+
+.login-comentario{
+    
+    width: 490px;
+    height: 15px;
+    margin-bottom: 5px;
+    color: #FF4500;
+   
+    font-weight: bold;
+    font-size: 14px;
+    
+    
+    
+}
+
+.conteudo-login-comentario{
+    
+    
+    width: 490px;
+    height: auto;
+    margin-left: 5px;
+    float:left;
+
+    
+}
+
+spam.data{
+    
+    color: #778899;
+    font-size: 13px;
+     font-style: italic;
+    
+}
+
+#addcomentario{
+    
+    width: 580px;
+    height: 80px;
+    
+    
+}
